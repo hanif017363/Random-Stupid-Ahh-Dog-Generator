@@ -5,3 +5,8 @@
   border-bottom: 1px solid #e7e7e7;
   margin-bottom: 20px;
 }
+.custom-card {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 2rem;
+}

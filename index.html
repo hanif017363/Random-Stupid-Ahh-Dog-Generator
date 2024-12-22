@@ -18,18 +18,39 @@
       <p>Discover Interesting API</p>
     </header>
     <div class="container">
-      <div class="card text-center">
-        <div class="card-body">
-          <h2 class="fw-bold">Random Dog</h2>
-          <img id="dog-img" class="img-fluid" src="" alt="dog image" />
+      <div class="row g-4">
+        <!-- get rndom stupid ahh dog -->
+        <div class="col-md-4">
+          <div class="card text-center custom-card">
+            <div class="card-body">
+              <h2 class="fw-bold">Random Dog</h2>
+              <img id="dog-img" class="img-fluid" src="" alt="dog image" />
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="getRandomDogImage()
+        "
+            >
+              Stupid Ahh Dog
+            </button>
+          </div>
         </div>
-        <button
-          class="btn btn-primary"
-          onclick="getRandomDogImage()
-"
-        >
-          Stupid Ahh Dog
-        </button>
+        <!-- get goofy ahh cat -->
+        <div class="col-md-4">
+          <div class="card text-center custom-card">
+            <div class="card-body">
+              <h2 class="fw-bold">Random Cat</h2>
+              <img id="cat-img" class="img-fluid" src="" alt="cat image" />
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="getRandomCatImage()
+        "
+            >
+              Goofy Ahh Cat
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <!-- script -->
